@@ -10,6 +10,7 @@ else
 fi
 
 curl -L http://debian.datastax.com/debian/repo_key | sudo apt-key add -
+
 apt-get update
 apt-get -y install opscenter=6.0.0
 
